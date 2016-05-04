@@ -11,7 +11,7 @@
 // about supported directives.
 //
 //= require react
-//= require components
 //= require react_ujs
+//= require components
 //= require turbolinks
 //= require_tree .
