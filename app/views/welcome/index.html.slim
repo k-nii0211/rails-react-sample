@@ -1,8 +1,2 @@
-= react_component('CommentBox',
-        data: [\
-          {author: "Pete Hunt", text: "This is one comment"}, \
-          {author: "You", text: "This is *super* comment"}, \
-          {author: "Jordan Walke", text: "This is *another* comment"} \
-        ] \
-)
+= react_component('CommentBox', url: 'api/comments.json', pollInterval: 2000)
 
